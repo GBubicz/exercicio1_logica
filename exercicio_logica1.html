@@ -1,0 +1,32 @@
+
+
+<meta charset="UTF-8">
+<script>
+
+function pulaLinha (){
+    document.write ("<br>");
+}
+function mostra(frase){
+    document.write(frase);
+    pulaLinha();
+}
+function calculaNumero( numeroInformado){
+return numeroInformado
+}
+var nome = prompt("Informe o seu nome, por favor.");
+var numeroInformado= parseInt(prompt("Digite um número, por favor."));
+
+
+
+if (numeroInformado> 0) {
+    mostra (nome+", "+numeroInformado+" é um número positivo.");
+}
+
+if (numeroInformado< 0) {
+    mostra(nome+", " +numeroInformado+" é um número negativo.");
+}
+
+if (numeroInformado == 0) {
+    mostra(nome+", " +numeroInformado+" é um número neutro.");
+}
+</script>
